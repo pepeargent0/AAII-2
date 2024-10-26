@@ -1,3 +1,8 @@
+"""
+Parte 3: Prueba del Sistema Completo (rock-paper-scissors.py)
+Este script carga el modelo entrenado y utiliza la cámara web para detectar gestos en tiempo real.
+"""
+
 import cv2
 import numpy as np
 import tensorflow as tf

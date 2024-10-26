@@ -1,3 +1,8 @@
+"""
+Parte 2: Entrenamiento del Clasificador (train-gesture-classifier.py)
+Este script carga los datos del dataset grabado y entrena una red neuronal densa para clasificar los gestos.
+"""
+
 import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split

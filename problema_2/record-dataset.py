@@ -1,3 +1,10 @@
+"""
+
+Parte 1: Grabación del Dataset (record-dataset.py)
+El primer script captura imágenes de la mano usando la cámara web y utiliza MediaPipe para detectar los puntos clave.
+Los datos de los landmarks se almacenan junto con una etiqueta correspondiente a cada gesto (0 para Piedra, 1 para Papel, 2 para Tijeras).
+"""
+
 import cv2
 import numpy as np
 import mediapipe as mp
